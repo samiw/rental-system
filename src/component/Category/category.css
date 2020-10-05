@@ -1,0 +1,31 @@
+/* define category css */
+
+.gridContainer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 260px);
+    grid-template-rows: repeat(auto-fill, 240px);
+    grid-gap: 48px;
+    align-items: center;
+    justify-content: center;    
+}
+.contentArea {
+    padding: 40px 0;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.space {
+    margin: 0 0 60px 82px;
+}
+.gridContainer > .item {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+.itemBox {
+    padding: 12px;
+    text-align: center;
+    background-color: #216BAC;
+    color: #fff;
+    font-weight: 600;
+}

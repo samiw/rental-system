@@ -1,0 +1,89 @@
+#header, #footer {
+    background-color: #000000;
+    color: #ffffff;
+}
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 80px 25px 40px;
+}
+#footer {
+    padding: 25px 0;
+}
+#content {
+    height: calc(100vh - 116px);
+    overflow: auto;
+}
+.text-align {
+    text-align: center;
+}
+.positionRelative {
+    position: relative;
+}
+.cursorPointer {
+    cursor: pointer;
+}
+.home {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 23px;
+    font-weight: 600;
+}
+.fontWeight700 {
+    font-weight: 700;
+}
+.textUnderLine:hover {
+    text-decoration: underline;
+}
+.loaderCss {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+/* nvingtion css*/
+.navigation {
+    max-width: 170px;
+    position: absolute;
+    top: 40px;
+}
+.mainmenu, .submenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.mainmenu span {
+    display: block;
+    background-color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    color: #000;
+}
+.mainmenu span:hover {
+    border-bottom: 1px solid #000000;
+}
+.mainmenu span:hover {
+    background-color: #C5C5C5;
+}  
+.mainmenu > li {
+    border: 1px solid #cccccc;
+}  
+.mainmenu li:hover .submenu {
+    display: block;
+    max-height: 200px;
+}
+.submenu a {
+    background-color: #999;
+}
+.submenu a:hover {
+    background-color: #666;
+}
+.submenu {
+    overflow: auto;
+    max-height: 0;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
